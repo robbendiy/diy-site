@@ -1,3 +1,57 @@
 body {
+    font-family: "Arial", Sans;
+}
 
+a:link {
+    color: #7f92ff;
+}
+
+a:visited {
+    color: #bb7fff;
+}
+
+a:hover {
+    color: #ff5c5d;
+}
+
+a:active {
+    color: #ff5c5d;
+}
+
+h1 {
+    color: #565656;
+    letter-spacing: 5px;
+    font-size: 35px;
+    margin-left: 35px;
+}
+
+p {
+    color: #777777;
+    letter-spacing: 1px;
+    margin-left: 45px;
+}
+
+span {
+    color: #ff5c5d;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#avatar {
+    background: url("http://i.imgur.com/6MPhX9i.png");
+    width: 160px;
+    height: 150px;
+    position: fixed;
+    top: 90px;
+    left: 550px;
+    border-radius: 10px;
+}
+
+#close {
+    font-size: 12px;
+}
+
+#close a {
+     text-decoration: none;
 }
